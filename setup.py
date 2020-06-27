@@ -10,7 +10,7 @@ setup(
   entry_points = {
               'console_scripts': ['add = add.__main__:main',],
               },
-  
+  scripts=['scripts/add'],  
   keywords = ['addition', 'calculation'],  
   
   classifiers=[
