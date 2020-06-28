@@ -1,7 +1,7 @@
 import sys
 
 def add(x,y):
-    print(x+y)
+    print("add: %d" % x+y)
     return x+y    
 
 def main():
